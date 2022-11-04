@@ -1,0 +1,109 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(139,195,74,255);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  li a:hover {
+    background-color: rgba(80,94,45,255);
+  }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 276px;
+    
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: space-between;
+    background-color:rgba(139,195,74,255);
+    padding-right: 100px;
+;
+}
+
+
+#inner_head {
+    font-size: 5 px;
+}
+
+h4 {
+    font-size: 35px;
+    text-align: center;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    font-size: 15px;
+    border: 10px;
+    padding: 55px;
+    margin: 10px;
+}
+
+.container2 {
+
+  font-size: 20px;
+  width: 3000px;
+  height: 276px;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  background-image: url("star_trek_insignia.png");
+  background-repeat: no-repeat;
+  background-size: 12%;
+
+}
+
+#section {
+  text-align: center;
+  width: 1200px;
+
+}
+
+#section_text {
+  text-align: center;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  width: 1200px;
+
+}
+
+#headline {
+
+  padding:100px;
+}
+
+#headline2 {
+
+  font-size:20px
+}
+
+.dark-mode {
+
+  background-color: black;
+  color: white;
+
+}
+
